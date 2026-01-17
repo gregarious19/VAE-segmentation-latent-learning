@@ -30,7 +30,8 @@ The model consists of:
 
 1. **Encoder**
    - Maps the input image to a latent distribution  
-     \( q_\phi(z \mid x) = \mathcal{N}(\mu, \sigma^2) \)
+    qφ(z | x) = 𝒩(μ, σ²)
+
 
 2. **Latent Space**
    - Enforces smoothness and structure via KL divergence
@@ -159,9 +160,10 @@ Common components include:
 
 The total loss is typically:
 
-\[
-\mathcal{L} = \mathcal{L}_{\text{seg}} + \beta \cdot \mathcal{L}_{\text{KL}}
-\]
+Loss function:
+
+L = L_seg + β · L_KL
+
 
 
 where ( \beta ) controls latent regularization strength.
