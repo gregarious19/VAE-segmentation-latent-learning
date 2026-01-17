@@ -159,9 +159,10 @@ Common components include:
 
 The total loss is typically:
 
-[
-\mathcal{L} = \mathcal{L}*{seg} + \beta \cdot \mathcal{L}*{KL}
-]
+\[
+\mathcal{L} = \mathcal{L}_{\text{seg}} + \beta \cdot \mathcal{L}_{\text{KL}}
+\]
+
 
 where ( \beta ) controls latent regularization strength.
 
