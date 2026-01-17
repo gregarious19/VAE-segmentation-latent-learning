@@ -1,10 +1,4 @@
-Below is a **complete, polished `README.md`** you can directly place in the root of
-**`VAE-segmentation-latent-learning`**.
-It is written in a **research-oriented but practical style**, suitable for GitHub, academic review, and future extensions.
 
----
-
-```markdown
 # VAE-Segmentation-Latent-Learning
 
 This repository implements a **Variational Autoencoder (VAE)–based segmentation framework** that learns a compact **latent representation** of input data and uses it to guide segmentation.  
